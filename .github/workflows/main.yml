@@ -1,0 +1,23 @@
+name: Practice workflow
+on:
+  push:
+    branches: main
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: go into console
+      run: echo "IT most popular in the world
+      
+    - name: Check current repo
+      run: ls -la
+      env:
+        VAR1: "This is practice1"
+        VAR2: "This is practice2"
+        
+    - name: Run envis
+      run: echo "VAR1 = ${{ env.VAR1 }}"
+      
+  
+    
+     
