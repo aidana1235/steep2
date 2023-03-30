@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: go into console
-      run: echo "IT most popular in the world
+      run: echo "IT most popular in the world"
       
     - name: Check current repo
       run: ls -la
